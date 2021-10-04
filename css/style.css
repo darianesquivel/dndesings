@@ -12,17 +12,6 @@ body {
   background-color: #0c0c0c;
 }
 
-.container {
-  width: 100%;
-  padding: 100px;
-}
-
-@media (max-width: 900px) {
-  .container {
-    padding: 20px;
-  }
-}
-
 /* PARTICLES */
 canvas {
   display: block;
@@ -153,6 +142,31 @@ canvas {
 }
 
 /* SECTION 1*/
+.container {
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0px 50px;
+}
+
+.container button {
+  width: 200px;
+  height: 50px;
+  background-color: #1b3d69;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
 .section1 {
   width: 100%;
   height: 92vh;
@@ -180,7 +194,6 @@ canvas {
   font-weight: 500;
   z-index: 1;
   position: relative;
-  padding: 20px 20px 70px;
   width: 700px;
   text-align: left;
 }
@@ -194,7 +207,7 @@ canvas {
 .section2 {
   width: 100%;
   height: 100vh;
-  background-color: #135e5e;
+  background-color: #1b3d69;
   padding: 25px;
 }
 
@@ -207,12 +220,14 @@ canvas {
   .section1 h2 {
     width: 100%;
   }
+  .container {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 600px) {
   .section1 {
     font-size: 1rem;
-    height: 70vh;
   }
   .section1 h2 {
     width: 100%;
