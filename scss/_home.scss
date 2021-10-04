@@ -1,0 +1,45 @@
+/* SECTION 1*/
+
+.section1 {
+  width: 100%;
+  height: 92vh;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 25px;
+  div {
+    display: flex;
+    justify-content: right;
+  }
+  h2 {
+    z-index: 1;
+    position: relative;
+    padding: 20px 20px 70px;
+    width: 700px;
+    text-align: right;
+  }
+  h2 span {
+    text-transform: uppercase;
+    color: rgb(27, 61, 105);
+  }
+}
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(19, 94, 94);
+  padding: 25px;
+}
+
+/* MEDIA QUERYS */
+
+@media (max-width: 900px) {
+  .section1 {
+    font-size: 1rem;
+    h2 {
+      width: 400px;
+    }
+  }
+}
