@@ -35,3 +35,54 @@
   font-size: 1.5rem;
   text-transform: uppercase;
 }
+
+.logoBur {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fas {
+  color: white;
+  font-size: 2rem;
+}
+
+.menuNav .fa-bars {
+  display: none;
+}
+
+.fa-bars:hover {
+  color: rgb(33, 91, 197);
+}
+
+/* MEDIA QUERYS */
+
+@media (max-width: 900px) {
+  .menuNav {
+    width: 100%;
+    height: 35vh;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: flex-start;
+
+    .fa-bars {
+      display: block;
+    }
+    ul {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      display: none;
+    }
+  }
+
+  .menuNav.active {
+    ul {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

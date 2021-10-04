@@ -10,10 +10,22 @@ body {
   background-color: rgb(12, 12, 12);
 }
 
+.container {
+  width: 100%;
+  padding: 100px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 20px;
+  }
+}
+
 /* PARTICLES */
 
 canvas {
   display: block;
+
   //vertical-align: bottom;
 }
 
