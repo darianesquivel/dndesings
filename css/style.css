@@ -253,19 +253,6 @@ canvas {
   background: linear-gradient(90deg, rgba(27, 61, 105, 0) 0%, rgba(27, 61, 105, 0) 30%, rgba(27, 61, 105, 0.6) 100%);
 }
 
-.circle {
-  position: absolute;
-  background: black;
-  background: radial-gradient(circle, black 30%, 3 rgba(0, 0, 0, 0) 150%);
-  opacity: 0.4;
-  width: 550px;
-  height: 550px;
-  border-radius: 300px;
-  left: 3%;
-  -webkit-box-shadow: 13px 5px rgba(188, 143, 143, 0.062);
-          box-shadow: 13px 5px rgba(188, 143, 143, 0.062);
-}
-
 .h1Bottton {
   display: -webkit-box;
   display: -ms-flexbox;

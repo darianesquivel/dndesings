@@ -15,22 +15,6 @@
   );
 }
 
-.circle {
-  position: absolute;
-  background: rgb(0, 0, 0);
-  background: radial-gradient(
-    circle,
-    rgb(0, 0, 0) 30%,
-    3 rgba(0, 0, 0, 0) 150%
-  );
-  opacity: 0.4;
-  width: 550px;
-  height: 550px;
-  border-radius: 300px;
-  left: 3%;
-  box-shadow: 13px 5px rgba(188, 143, 143, 0.062);
-}
-
 .h1Bottton {
   display: flex;
   flex-direction: column;
