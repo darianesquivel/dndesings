@@ -6,17 +6,39 @@
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  padding-left: 20%;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
     rgba(27, 61, 105, 0) 0%,
-    rgba(27, 61, 105, 0) 25%,
-    rgba(27, 61, 105, 0.3) 100%
+    rgba(27, 61, 105, 0) 30%,
+    rgba(27, 61, 105, 0.6) 100%
   );
 }
 
+.circle {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgb(0, 0, 0) 30%,
+    3 rgba(0, 0, 0, 0) 150%
+  );
+  opacity: 0.4;
+  width: 550px;
+  height: 550px;
+  border-radius: 300px;
+  left: 3%;
+  box-shadow: 13px 5px rgba(188, 143, 143, 0.062);
+}
+
+.h1Bottton {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+}
+
 .btnCta {
+  z-index: 1;
   position: relative;
   width: 200px;
   height: 50px;
@@ -98,7 +120,8 @@
     }
   }
   .container {
-    padding-left: 10%;
+    padding-left: 1%;
+
     button {
       width: 120px;
       height: 35px;
@@ -123,7 +146,8 @@
   .section1 {
     font-size: 1rem;
     .container {
-      padding: 30px;
+      padding: 1%;
+      height: 20vh;
     }
     h1 {
       width: 100%;
@@ -136,5 +160,10 @@
 
   .cardServ {
     width: 95%;
+  }
+
+  .circle {
+    width: 250px;
+    height: 250px;
   }
 }
