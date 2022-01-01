@@ -544,6 +544,9 @@ textarea:focus {
 
 /* MEDIA QUERy*/
 @media (max-width: 900px) {
+  .contact {
+    height: 100vh;
+  }
   .imgContact {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
