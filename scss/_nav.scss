@@ -45,6 +45,9 @@
   display: flex;
   justify-content: space-between;
   margin-left: 50px;
+  img {
+    height: 70%;
+  }
 }
 
 .fas {
@@ -61,7 +64,7 @@
   color: rgb(33, 91, 197);
 }
 
-.menuIdioma {
+.menuLanguage {
   li {
     list-style: none;
     padding-right: 70px;
@@ -86,17 +89,19 @@
   opacity: 0.9;
   text-align: center;
 
-  -webkit-animation: slide-bottom 0.5s ease-out infinite alternate backwards;
-  animation: slide-bottom 0.5s ease-out infinite alternate backwards;
+  -webkit-animation: slide-bottom 1s ease-out infinite alternate backwards;
+  animation: slide-bottom 1s ease-out infinite alternate backwards;
 }
 
-.idiomaScroll {
+.languageScroll {
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 0px 50px 20px 50px;
   p {
     font-weight: 300;
+    text-transform: uppercase;
+    font-size: 0.7rem;
   }
 }
 
@@ -139,7 +144,7 @@
     }
   }
 
-  .menuIdioma {
+  .menuLanguage {
     li {
       padding-right: 20px;
     }
@@ -149,7 +154,7 @@
     padding-right: 20px;
   }
 
-  .idiomaScroll {
+  .languageScroll {
     padding: 0px 20px 20px 20px;
   }
 }
