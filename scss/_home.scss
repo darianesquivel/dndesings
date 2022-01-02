@@ -88,6 +88,8 @@
   .section2__1TextButton {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 30%;
     button {
       background-color: rgb(12, 12, 12);
@@ -101,6 +103,10 @@
       color: white;
     }
   }
+}
+
+.fab {
+  font-size: 2rem;
 }
 
 /* MEDIA QUERYS */
