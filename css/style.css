@@ -372,7 +372,7 @@ canvas {
 
 .section2 {
   width: 100%;
-  height: 60vh;
+  height: 100vh;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -442,19 +442,27 @@ canvas {
     padding-left: 1%;
   }
   .container button {
+    font-size: 1rem;
     width: 120px;
     height: 35px;
   }
   .section2 {
-    height: auto;
+    height: 150vh;
   }
-  .section2__1 {
+  .section2 .section2__1 {
+    height: 80vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border-bottom: white 1px solid;
-    border-top: white 1px solid;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: center;
+  }
+  .section2 .section2__1TextButton {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -470,11 +478,29 @@ canvas {
     width: 100%;
     font-size: 1rem;
   }
+  .section2 {
+    height: 220vh;
+  }
+  .section2 .section2__1 {
+    height: 110vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-align: center;
+  }
+  .section2 .section2__1TextButton {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .contact {
   width: 100%;
-  height: 60vh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -516,7 +542,7 @@ canvas {
 
 .form {
   width: 70%;
-  height: 100%;
+  height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -575,7 +601,7 @@ textarea:focus {
 /* MEDIA QUERY*/
 @media (max-width: 900px) {
   .contact {
-    height: 100vh;
+    height: 80vh;
   }
   .imgContact {
     -webkit-box-orient: vertical;
@@ -597,14 +623,45 @@ textarea:focus {
 }
 
 @media (max-width: 600px) {
+  .contact {
+    height: 60vh;
+  }
   .form {
-    width: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .form form {
-    width: 100%;
+    width: 90%;
   }
+}
+
+.redes {
+  color: white;
+}
+
+footer {
+  height: 10vh;
+  background-color: #1b1b1b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+footer p {
+  color: white;
+  font-weight: 300;
 }
 /*# sourceMappingURL=style.css.map */
