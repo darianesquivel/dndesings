@@ -25,19 +25,19 @@ canvas {
 }
 
 .remark1 {
-  color: #ba4ed6;
+  color: #1b3d69;
   font-size: 2rem;
   font-weight: 800;
 }
 
 .remark2 {
-  color: #375a64;
+  color: #1b6958;
   font-size: 2rem;
   font-weight: 800;
 }
 
 .remark3 {
-  color: #d11e45;
+  color: #591b69;
   font-size: 2rem;
   font-weight: 800;
 }
@@ -294,13 +294,9 @@ canvas {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
-  background: black;
   background: -webkit-gradient(linear, left top, right top, from(rgba(27, 61, 105, 0)), color-stop(30%, rgba(27, 61, 105, 0)), to(rgba(27, 61, 105, 0.6)));
   background: linear-gradient(90deg, rgba(27, 61, 105, 0) 0%, rgba(27, 61, 105, 0) 30%, rgba(27, 61, 105, 0.6) 100%);
 }
@@ -414,6 +410,7 @@ canvas {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 30%;
 }
 
 .section2 .section2__1TextButton button {
@@ -463,6 +460,7 @@ canvas {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 90%;
   }
 }
 

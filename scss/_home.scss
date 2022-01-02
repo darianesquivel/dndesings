@@ -4,9 +4,9 @@
   height: 30vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: left;
-  background: rgb(0, 0, 0);
+  //background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
     rgba(27, 61, 105, 0) 0%,
@@ -88,7 +88,7 @@
   .section2__1TextButton {
     display: flex;
     flex-direction: column;
-
+    width: 30%;
     button {
       background-color: rgb(12, 12, 12);
       border: 1px solid white;
@@ -136,6 +136,7 @@
 
     .section2__1TextButton {
       align-items: center;
+      width: 90%;
     }
   }
 }
